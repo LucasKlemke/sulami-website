@@ -12,7 +12,7 @@ export default function Hero() {
           src="/images/bg.jpg"
           alt="Mármore e granito - Mil Mármores e Granitos"
           fill
-          className="object-cover opacity-30"
+          className="object-cover opacity-60"
           priority
           sizes="100vw"
         />

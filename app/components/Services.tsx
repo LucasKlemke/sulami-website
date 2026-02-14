@@ -32,11 +32,6 @@ const services = [
     image: "/images/servicos/soleira.jpg",
   },
   {
-    title: "Fachadas",
-    description: "Fachadas revestidas em pedra para um visual imponente e duradouro.",
-    image: "/images/servicos/fachada.jpg",
-  },
-  {
     title: "Túmulos",
     description: "Acabamentos em mármore e granito para homenagens eternas.",
     image: "/images/servicos/tumulo.jpg",

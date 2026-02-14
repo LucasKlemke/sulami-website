@@ -56,18 +56,7 @@ export default function About() {
         </div>
 
         {/* Content Grid */}
-        <div className="mb-20 grid items-center gap-12 lg:grid-cols-2">
-          {/* Image */}
-          <div className="relative h-80 w-full overflow-hidden rounded-xl sm:h-96">
-            <Image
-              src="/images/placeholder.svg"
-              alt="Equipe Mil Mármores e Granitos - Marmoraria em São Bento do Sul"
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 50vw"
-            />
-            {/* Substitua o src acima por: /images/sobre-empresa.jpg (600x400 recomendado) */}
-          </div>
+        <div className="mb-20 grid items-center gap-12">
 
           {/* Text Content */}
           <div>
@@ -75,19 +64,10 @@ export default function About() {
               Tradição familiar desde 1997
             </h3>
             <p className="mb-4 leading-relaxed text-gray-medium">
-              A Mil Mármores e Granitos iniciou suas atividades no ano de 1997 na
-              cidade de Rio Negrinho, fundada por Alcides e Sulami, que hoje são os
-              proprietários da empresa e atuam na área há mais de 40 anos. O
-              conhecimento foi passado por familiares que já trabalhavam no ramo,
-              criando uma verdadeira tradição familiar.
+              Desde 1997, a Mil Mármores e Granitos transforma pedras naturais em arte e funcionalidade. Fundada em Rio Negrinho por Alcides e Sulami, nossa história carrega uma herança familiar de mais de 40 anos de expertise no setor.
             </p>
             <p className="mb-6 leading-relaxed text-gray-medium">
-              Com o tempo, a empresa consolidou grande parte de sua clientela em
-              São Bento do Sul, onde atua até hoje. Nosso diferencial, além de
-              décadas de experiência, é o comprometimento com cada cliente,
-              cumprindo e suprindo suas necessidades com excelência e
-              transparência, sempre buscando oferecer o que há de mais novo no
-              mercado.
+              Hoje, consolidados em São Bento do Sul, unimos essa tradição ao que há de mais moderno no mercado. Nosso compromisso vai além da entrega: oferecemos transparência e excelência em cada detalhe, garantindo que cada projeto reflita a solidez e a beleza que nossos clientes merecem.
             </p>
 
             {/* Stats */}
@@ -135,7 +115,7 @@ export default function About() {
           </h3>
           <p className="mx-auto max-w-2xl text-white/80">
             Oferecemos <span className="font-semibold text-accent-light">30 dias de garantia</span> em
-            nossos serviços. O granito, pela sua própria natureza, está sujeito
+            nossos serviços. As pedras, pela sua própria natureza, estão sujeitas
             a variações de cor, tonalidade, desenhos e veios, características
             que fazem de cada peça algo único e especial.
           </p>

@@ -43,6 +43,8 @@ export default function Materials() {
           <p className="mx-auto mt-6 max-w-2xl text-gray-medium">
             Trabalhamos com uma ampla variedade de pedras naturais e
             industrializadas, sempre selecionando o melhor para cada projeto.
+            Os materiais naturais estão sujeitos a variação de cor, tonalidade,
+            desenhos e veios — características próprias de cada pedra.
           </p>
         </div>
 

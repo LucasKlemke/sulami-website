@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const navLinks = [
@@ -40,12 +41,13 @@ export default function Header() {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <span className="text-xl font-bold text-white sm:text-2xl">
-              Mil Mármores
-            </span>
-            <span className="hidden text-sm font-light text-accent-light sm:block">
-              e Granitos
-            </span>
+            <Image
+              src="/images/logo_mil_marmores_branco.png"
+              alt="Equipe Mil Mármores e Granitos - Marmoraria em São Bento do Sul"
+              width={200}
+              height={100}
+              className="object-cover"
+            />
           </a>
 
           {/* Desktop Navigation */}
