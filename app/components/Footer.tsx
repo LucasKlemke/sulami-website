@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const navLinks = [
   { label: "Início", href: "#home" },
   { label: "Sobre Nós", href: "#sobre" },
@@ -15,10 +17,15 @@ export default function Footer() {
         <div className="grid gap-12 pb-12 sm:grid-cols-2 lg:grid-cols-4">
           {/* Company Info */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <h3 className="mb-2 text-2xl font-bold text-white">
-              Mil Mármores
-            </h3>
-            <p className="mb-4 text-sm text-accent-light">e Granitos</p>
+ <a href="#home" className="flex items-center gap-2">
+            <Image
+              src="/images/logo_mil_marmores_branco.png"
+              alt="Equipe Mil Mármores e Granitos - Marmoraria em São Bento do Sul"
+              width={200}
+              height={100}
+              className="object-cover"
+            />
+          </a>
             <p className="text-sm leading-relaxed text-white/60">
               Tradição e qualidade desde 1997. Especialistas em mármores,
               granitos, quartzos e quartzitos em São Bento do Sul e região.
