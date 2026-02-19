@@ -71,7 +71,7 @@ export default function About() {
             </p>
 
             {/* Stats */}
-            <div className="grid grid-cols-2 gap-6 sm:grid-cols-3">
+            <div className="grid grid-cols-2 gap-6">
               <div className="text-center">
                 <p className="text-3xl font-bold text-accent">28+</p>
                 <p className="mt-1 text-sm text-gray-medium">Anos de experiência</p>
@@ -79,10 +79,6 @@ export default function About() {
               <div className="text-center">
                 <p className="text-3xl font-bold text-accent">40+</p>
                 <p className="mt-1 text-sm text-gray-medium">Anos no ramo</p>
-              </div>
-              <div className="col-span-2 text-center sm:col-span-1">
-                <p className="text-3xl font-bold text-accent">10</p>
-                <p className="mt-1 text-sm text-gray-medium">Dias úteis de prazo</p>
               </div>
             </div>
           </div>
